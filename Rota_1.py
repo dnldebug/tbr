@@ -21,6 +21,7 @@ def train_I():
     andar(16)
     rotate(90)
     andar(18)
+    detect_train_I()
 
 #caminho até a caixa verde
 def route_II():
