@@ -5,6 +5,7 @@ from pybricks.robotics import DriveBase
 from pybricks.tools import wait, StopWatch
 from Drive_Train import andar, rotate, turn
 from consts import Open, close, low, mid, deposit, cancela_esquerda, cancela_direita, volta_direita, volta_esquerda
+from functions import detect_train_I, detect_train_II, detect_train_III, detect_train_IV
 
 hub = PrimeHub()
 
