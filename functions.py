@@ -116,13 +116,21 @@ train_IV = {
 
 
 def detect_train_I():
+    colors_dir = cs_dir.color()
+    colors_esq = cs_esq.color()
     train_I[colors_esq]()
 
 def detect_train_II():
+    colors_dir = cs_dir.color()
+    colors_esq = cs_esq.color()
     train_II[colors_dir]()
 
 def detect_train_III():
+    colors_dir = cs_dir.color()
+    colors_esq = cs_esq.color()
     train_III[colors_dir]()
 
 def detect_train_IV():
+    colors_dir = cs_dir.color()
+    colors_esq = cs_esq.color()
     train_IV[colors_dir]()
