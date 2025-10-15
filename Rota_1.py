@@ -14,7 +14,7 @@ def route_I():
     close()
     rotate(-90)
     andar(30)
-
+    cor_emergency()
 # VAI PARA O TREM
 def train_I():
     rotate(-90)
