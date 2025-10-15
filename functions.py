@@ -10,6 +10,10 @@ hub = PrimeHub()
 colors_dir = cs_dir.color()
 colors_esq = cs_esq.color()
 
+def cor_emergency():
+    cor = sensor_esquerda.color()
+    if cor == Color.NONE:
+        andar(12)
 
 def azul_TI(): 
     andar(45)
