@@ -11,7 +11,7 @@ colors_dir = cs_dir.color()
 colors_esq = cs_esq.color()
 
 def cor_emergency():
-    cor = sensor_esquerda.color()
+    cor = cs_esq.color()
     if cor == Color.NONE:
         andar(12)
 
